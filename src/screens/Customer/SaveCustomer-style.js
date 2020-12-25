@@ -9,18 +9,6 @@ export const styles = StyleSheet.create({
         alignItems: 'stretch',
     },
 
-    imageBox: {
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginTop: R.dimens.FONT_SIZE_10,
-    },
-
-    imageStyle: {
-        resizeMode: 'contain',
-        height: R.dimens.DIMENS_SIZE_120,
-        width: R.dimens.DIMENS_SIZE_120,
-        marginTop: R.dimens.DIMENS_SIZE_25,
-    },
 
     titleStyle: {
         fontSize: R.dimens.FONT_SIZE_16,
@@ -35,15 +23,35 @@ export const styles = StyleSheet.create({
     },
 
     labelStyle: {
-        flex:0.9,
+        flex: 0.9,
         fontSize: R.dimens.FONT_SIZE_14,
         color: R.colors.colorWhite,
     },
 
     iconStyle: {
-        flex:0.1,
+        flex: 0.1,
         color: R.colors.colorWhite,
         fontSize: R.dimens.DIMENS_SIZE_20,
-    }
+    },
+
+    container: {
+        flex: 1,
+    },
+    scrollViewContainer: {
+        flex: 1,
+        backgroundColor: R.colors.mainBgColor,
+    },
+
+    noteStyle: {
+        color: R.colors.mainBgColor,
+        marginTop: R.dimens.DIMENS_SIZE_4,
+        marginBottom: R.dimens.DIMENS_SIZE_4,
+        paddingTop: R.dimens.PADDING_DEFAULT_4,
+        paddingBottom: R.dimens.PADDING_DEFAULT_4,
+        fontSize: R.dimens.mediumText,
+        fontWeight: 'bold',
+    },
+
+
 
 })
